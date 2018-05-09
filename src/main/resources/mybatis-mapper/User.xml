@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.guddqs.mapper.UserMapper">
+
+    <resultMap id="result" type="com.guddqs.entity.UserModel"/>
+
+    <sql id="tableName">de_user</sql>
+    <sql id="idField">userId</sql>
+
+    <sql id="where">
+        <where>
+            <if test="#{nameLike}!=null and nameLike!=null and nameLike!=''">
+                and userName like #{nameLike}
+            </if>
+        </where>
+
+        <if test="#{page}!=null and page!=null">
+            limit ${page.start},${page.limit}
+        </if>
+    </sql>
+
+    <select id="findAll" resultMap="result">
+        SELECT *
+        FROM <include refid="tableName"/>
+        <include refid="where"/>
+    </select>
+
+    <select id="findById" resultMap="result">
+        SELECT *
+        FROM <include refid="tableName"/>
+        WHERE <include refid="idField"/> = #{id}
+    </select>
+
+    <insert id="add">
+        INSERT INTO <include refid="tableName"/> (
+            userId,
+            userName,
+            userAge,
+            userGender,
+            userPhone,
+            userBirthday
+        ) VALUES (
+            #{userId},
+            #{userName},
+            #{userAge},
+            #{userGender},
+            #{userPhone},
+            #{userBirthday}
+        )
+    </insert>
+
+    <update id="modify">
+        UPDATE <include refid="tableName"/>
+        <set>
+            userName = #{userName},
+            userAge = #{userAge},
+            userGender= #{userGender},
+            userPhone= #{userPhone},
+            userBirthday= #{userBirthday}
+        </set>
+        WHERE <include refid="idField"/> = #{userId}
+    </update>
+
+
+    <select id="count" resultType="java.lang.Integer">
+        SELECT count(1)
+        FROM <include refid="tableName"/>
+        <include refid="where"/>
+    </select>
+
+    <delete id="remove">
+        DELETE FROM <include refid="tableName"/>
+        WHERE <include refid="idField"/> IN
+        <foreach collection="array" item="id" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+    </delete>
+
+</mapper>

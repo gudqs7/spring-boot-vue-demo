@@ -1,0 +1,302 @@
+00:29:18.530 27567731 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h16m31s766ms).
+02:04:42.401 33291602 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m23s871ms).
+05:10:43.999 44453200 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h6m1s598ms).
+08:03:44.948 54834149 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h52m30s939ms).
+08:05:13.763 54922964 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m28s814ms).
+08:20:22.891 55832092 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=8s33ms), soft-evicting connections from pool.
+10:38:43.206 64132407 [Thread-3] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3d3e5463: startup date [Tue May 08 16:49:55 CST 2018]; root of context hierarchy
+10:38:43.231 64132432 [Thread-3] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+10:38:43.233 64132434 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:38:43.239 64132440 [Thread-3] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+10:38:43.240 64132441 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+10:38:43.240 64132441 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:38:43.241 64132442 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+10:38:43.311 64132512 [Thread-3] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+10:38:43.323 64132524 [Thread-3] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+10:38:43.330 64132531 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:38:43.361 64132562 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:38:52.124 3280 [main] INFO  com.guddqs.DemoApplication - Starting DemoApplication on MacBook-Pro2015.local with PID 36088 (/Users/wq/study/springBoot/demo/build/classes/java/main started by wq in /Users/wq/study/springBoot/demo)
+10:38:52.131 3287 [main] INFO  com.guddqs.DemoApplication - No active profile set, falling back to default profiles: default
+10:38:52.380 3536 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@13d9b21f: startup date [Wed May 09 10:38:52 CST 2018]; root of context hierarchy
+10:38:56.100 7256 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+10:38:57.490 8646 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$954c8ee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:38:58.610 9766 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9988 (http)
+10:38:58.859 10015 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9988"]
+10:38:58.887 10043 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+10:38:58.887 10043 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+10:38:58.906 10062 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/wq/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10:38:59.129 10285 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:38:59.129 10285 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6749 ms
+10:38:59.678 10834 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+10:38:59.679 10835 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+10:38:59.679 10835 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+10:38:59.679 10835 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+10:38:59.679 10835 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'corsFilter' to: [/*]
+10:38:59.679 10835 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+10:39:00.844 12000 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:39:01.646 12802 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@13d9b21f: startup date [Wed May 09 10:38:52 CST 2018]; root of context hierarchy
+10:39:01.968 13124 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/add],methods=[POST]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.add(com.guddqs.entity.UserModel) throws java.lang.Exception
+10:39:01.972 13128 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/remove],methods=[POST]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.remove(java.lang.Object[]) throws java.lang.Exception
+10:39:01.972 13128 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/modify],methods=[POST]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.modify(com.guddqs.entity.UserModel) throws java.lang.Exception
+10:39:01.972 13128 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/findAll],methods=[POST]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.findAll(java.util.Map<java.lang.String, java.lang.Object>) throws java.lang.Exception
+10:39:01.973 13129 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/findAll],methods=[GET]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.findAll() throws java.lang.Exception
+10:39:01.973 13129 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/find/{name}],methods=[GET]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.findById(java.lang.String) throws java.lang.Exception
+10:39:01.982 13138 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:39:01.983 13139 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:39:02.147 13303 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:39:02.148 13304 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:39:02.748 13904 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+10:39:04.661 15817 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:39:05.674 16830 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:39:05.800 16956 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+10:39:05.850 17006 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+10:39:05.850 17006 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+10:39:05.854 17010 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+10:39:05.856 17012 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+10:39:05.857 17013 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+10:39:05.857 17013 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+10:39:05.858 17014 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@1d2def55
+10:39:06.195 17351 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+10:39:06.198 17354 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+10:39:06.212 17368 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+10:39:06.224 17380 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+10:39:06.224 17380 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+10:39:06.225 17381 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+10:39:06.261 17417 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9988"]
+10:39:06.303 17459 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+10:39:06.471 17627 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9988 (http) with context path ''
+10:39:06.483 17639 [main] INFO  com.guddqs.DemoApplication - Started DemoApplication in 16.459 seconds (JVM running for 18.978)
+10:39:11.696 22852 [http-nio-9988-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+10:39:11.696 22852 [http-nio-9988-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+10:39:11.728 22884 [http-nio-9988-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+10:42:20.120 211276 [Thread-3] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@13d9b21f: startup date [Wed May 09 10:38:52 CST 2018]; root of context hierarchy
+10:42:20.135 211291 [Thread-3] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+10:42:20.137 211293 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:42:20.144 211300 [Thread-3] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+10:42:20.144 211300 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+10:42:20.145 211301 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:42:20.146 211302 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+10:42:20.223 211379 [Thread-3] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+10:42:20.226 211382 [Thread-3] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+10:42:20.227 211383 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:42:20.242 211398 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:42:25.127 2587 [main] INFO  com.guddqs.DemoApplication - Starting DemoApplication on MacBook-Pro2015.local with PID 36105 (/Users/wq/study/springBoot/demo/build/classes/java/main started by wq in /Users/wq/study/springBoot/demo)
+10:42:25.136 2596 [main] INFO  com.guddqs.DemoApplication - No active profile set, falling back to default profiles: default
+10:42:25.404 2864 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@403f0a22: startup date [Wed May 09 10:42:25 CST 2018]; root of context hierarchy
+10:42:28.420 5880 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+10:42:29.575 7035 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d21b84ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:42:30.403 7863 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9988 (http)
+10:42:30.522 7982 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9988"]
+10:42:30.546 8006 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+10:42:30.547 8007 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+10:42:30.572 8032 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/wq/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10:42:30.774 8234 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:42:30.775 8235 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5370 ms
+10:42:31.074 8534 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+10:42:31.075 8535 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+10:42:31.075 8535 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+10:42:31.075 8535 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+10:42:31.076 8536 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'corsFilter' to: [/*]
+10:42:31.076 8536 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+10:42:32.063 9523 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:42:32.781 10241 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@403f0a22: startup date [Wed May 09 10:42:25 CST 2018]; root of context hierarchy
+10:42:32.988 10448 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/api/user/add],methods=[POST]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.add(com.guddqs.entity.UserModel) throws java.lang.Exception
+10:42:32.989 10449 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/api/user/remove],methods=[POST]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.remove(java.lang.Object[]) throws java.lang.Exception
+10:42:32.990 10450 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/api/user/findAll],methods=[POST]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.findAll(java.util.Map<java.lang.String, java.lang.Object>) throws java.lang.Exception
+10:42:32.990 10450 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/api/user/findAll],methods=[GET]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.findAll() throws java.lang.Exception
+10:42:32.990 10450 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/api/user/modify],methods=[POST]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.modify(com.guddqs.entity.UserModel) throws java.lang.Exception
+10:42:32.990 10450 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/api/user/find/{name}],methods=[GET]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.findById(java.lang.String) throws java.lang.Exception
+10:42:32.994 10454 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:42:32.994 10454 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:42:33.045 10505 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:42:33.045 10505 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:42:33.123 10583 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+10:42:34.450 11910 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:42:35.296 12756 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:42:35.382 12842 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+10:42:35.469 12929 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+10:42:35.469 12929 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+10:42:35.472 12932 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+10:42:35.477 12937 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+10:42:35.477 12937 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+10:42:35.477 12937 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+10:42:35.478 12938 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@4fa0ee7e
+10:42:35.815 13275 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+10:42:35.844 13304 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+10:42:35.855 13315 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+10:42:35.872 13332 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+10:42:35.872 13332 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+10:42:35.872 13332 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+10:42:35.902 13362 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9988"]
+10:42:35.944 13404 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+10:42:35.987 13447 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9988 (http) with context path ''
+10:42:35.998 13458 [main] INFO  com.guddqs.DemoApplication - Started DemoApplication in 12.236 seconds (JVM running for 14.74)
+10:42:41.298 18758 [http-nio-9988-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+10:42:41.298 18758 [http-nio-9988-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+10:42:41.330 18790 [http-nio-9988-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+10:43:09.912 47372 [Thread-3] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@403f0a22: startup date [Wed May 09 10:42:25 CST 2018]; root of context hierarchy
+10:43:09.914 47374 [Thread-3] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+10:43:09.915 47375 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:43:09.915 47375 [Thread-3] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+10:43:09.915 47375 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+10:43:09.916 47376 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:43:09.916 47376 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+10:43:09.944 47404 [Thread-3] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+10:43:09.946 47406 [Thread-3] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+10:43:09.948 47408 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:43:09.965 47425 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:43:17.447 3045 [main] INFO  com.guddqs.DemoApplication - Starting DemoApplication on MacBook-Pro2015.local with PID 36109 (/Users/wq/study/springBoot/demo/build/classes/java/main started by wq in /Users/wq/study/springBoot/demo)
+10:43:17.449 3047 [main] INFO  com.guddqs.DemoApplication - No active profile set, falling back to default profiles: default
+10:43:17.765 3363 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@74eb909f: startup date [Wed May 09 10:43:17 CST 2018]; root of context hierarchy
+10:43:21.470 7068 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+10:43:23.304 8902 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7f53abf3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:43:24.272 9870 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9988 (http)
+10:43:24.455 10053 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9988"]
+10:43:24.496 10094 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+10:43:24.497 10095 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+10:43:24.518 10116 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/wq/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10:43:24.702 10300 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:43:24.703 10301 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6938 ms
+10:43:25.089 10687 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+10:43:25.089 10687 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+10:43:25.090 10688 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+10:43:25.090 10688 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+10:43:25.090 10688 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'corsFilter' to: [/*]
+10:43:25.090 10688 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+10:43:26.247 11845 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:43:27.003 12601 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@74eb909f: startup date [Wed May 09 10:43:17 CST 2018]; root of context hierarchy
+10:43:27.174 12772 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/add],methods=[POST]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.add(com.guddqs.entity.UserModel) throws java.lang.Exception
+10:43:27.175 12773 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/remove],methods=[POST]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.remove(java.lang.Object[]) throws java.lang.Exception
+10:43:27.176 12774 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/find/{name}],methods=[GET]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.findById(java.lang.String) throws java.lang.Exception
+10:43:27.176 12774 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/modify],methods=[POST]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.modify(com.guddqs.entity.UserModel) throws java.lang.Exception
+10:43:27.177 12775 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/findAll],methods=[GET]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.findAll() throws java.lang.Exception
+10:43:27.177 12775 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/findAll],methods=[POST]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.findAll(java.util.Map<java.lang.String, java.lang.Object>) throws java.lang.Exception
+10:43:27.183 12781 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:43:27.185 12783 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:43:27.265 12863 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:43:27.268 12866 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:43:27.491 13089 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+10:43:28.942 14540 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:43:29.742 15340 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:43:29.829 15427 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+10:43:29.850 15448 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+10:43:29.851 15449 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+10:43:29.853 15451 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+10:43:29.855 15453 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+10:43:29.855 15453 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+10:43:29.856 15454 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+10:43:29.856 15454 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@4751cd3
+10:43:30.170 15768 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+10:43:30.174 15772 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+10:43:30.187 15785 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+10:43:30.204 15802 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+10:43:30.204 15802 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+10:43:30.204 15802 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+10:43:30.242 15840 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9988"]
+10:43:30.296 15894 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+10:43:30.322 15920 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9988 (http) with context path ''
+10:43:30.330 15928 [main] INFO  com.guddqs.DemoApplication - Started DemoApplication in 15.061 seconds (JVM running for 17.05)
+10:54:15.139 660737 [Thread-3] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@74eb909f: startup date [Wed May 09 10:43:17 CST 2018]; root of context hierarchy
+10:54:15.162 660760 [Thread-3] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+10:54:15.164 660762 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:54:15.166 660764 [Thread-3] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+10:54:15.166 660764 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+10:54:15.166 660764 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:54:15.167 660765 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+10:54:15.209 660807 [Thread-3] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+10:54:15.210 660808 [Thread-3] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+10:54:15.214 660812 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:54:15.236 660834 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:54:23.157 3287 [main] INFO  com.guddqs.DemoApplication - Starting DemoApplication on MacBook-Pro2015.local with PID 36169 (/Users/wq/study/springBoot/demo/build/classes/java/main started by wq in /Users/wq/study/springBoot/demo)
+10:54:23.160 3290 [main] INFO  com.guddqs.DemoApplication - No active profile set, falling back to default profiles: default
+10:54:23.472 3602 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@503ecb24: startup date [Wed May 09 10:54:23 CST 2018]; root of context hierarchy
+10:54:26.378 6508 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+10:54:28.084 8214 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c5a8eec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:54:29.358 9488 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9988 (http)
+10:54:29.525 9655 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9988"]
+10:54:29.565 9695 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+10:54:29.567 9697 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+10:54:29.617 9747 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/wq/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10:54:29.824 9954 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:54:29.824 9954 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6352 ms
+10:54:30.215 10345 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+10:54:30.216 10346 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+10:54:30.216 10346 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+10:54:30.216 10346 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+10:54:30.216 10346 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'corsFilter' to: [/*]
+10:54:30.216 10346 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+10:54:31.327 11457 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:54:32.264 12394 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@503ecb24: startup date [Wed May 09 10:54:23 CST 2018]; root of context hierarchy
+10:54:32.667 12797 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/add],methods=[POST]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.add(com.guddqs.entity.UserModel) throws java.lang.Exception
+10:54:32.683 12813 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/remove],methods=[POST]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.remove(java.lang.Object[]) throws java.lang.Exception
+10:54:32.685 12815 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/findAll],methods=[POST]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.findAll(java.util.Map<java.lang.String, java.lang.Object>) throws java.lang.Exception
+10:54:32.686 12816 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/findAll],methods=[GET]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.findAll() throws java.lang.Exception
+10:54:32.686 12816 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/find/{name}],methods=[GET]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.findById(java.lang.String) throws java.lang.Exception
+10:54:32.687 12817 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/modify],methods=[POST]}" onto public com.guddqs.common.MapBean com.guddqs.web.UserController.modify(com.guddqs.entity.UserModel) throws java.lang.Exception
+10:54:32.707 12837 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:54:32.708 12838 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:54:32.838 12968 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:54:32.838 12968 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:54:33.021 13151 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+10:54:34.776 14906 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:54:35.942 16072 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:54:36.123 16253 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+10:54:36.211 16341 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+10:54:36.212 16342 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+10:54:36.213 16343 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+10:54:36.215 16345 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+10:54:36.215 16345 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+10:54:36.215 16345 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+10:54:36.215 16345 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@2ae3235e
+10:54:36.549 16679 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+10:54:36.553 16683 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+10:54:36.569 16699 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+10:54:36.598 16728 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+10:54:36.600 16730 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+10:54:36.606 16736 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+10:54:36.664 16794 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9988"]
+10:54:36.733 16863 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+10:54:36.764 16894 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9988 (http) with context path ''
+10:54:36.771 16901 [main] INFO  com.guddqs.DemoApplication - Started DemoApplication in 15.478 seconds (JVM running for 17.966)
+10:54:44.817 24947 [http-nio-9988-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+10:54:44.818 24948 [http-nio-9988-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+10:54:44.859 24989 [http-nio-9988-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 41 ms
+10:55:54.954 95084 [Thread-3] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@503ecb24: startup date [Wed May 09 10:54:23 CST 2018]; root of context hierarchy
+10:55:54.959 95089 [Thread-3] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+10:55:54.963 95093 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:55:54.969 95099 [Thread-3] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+10:55:54.971 95101 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+10:55:54.972 95102 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:55:54.974 95104 [Thread-3] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+10:55:55.015 95145 [Thread-3] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+10:55:55.017 95147 [Thread-3] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+10:55:55.023 95153 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:55:55.041 95171 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
