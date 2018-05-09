@@ -15,3 +15,14 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 }
+/*
+CREATE TABLE `de_user` (
+  `userId` varchar(36) NOT NULL,
+  `userName` varchar(50) DEFAULT NULL,
+  `userAge` int(11) DEFAULT NULL,
+  `userGender` int(11) DEFAULT NULL,
+  `userPhone` varchar(20) DEFAULT NULL,
+  `userBirthday` varchar(19) DEFAULT NULL,
+  PRIMARY KEY (`userId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+ */
